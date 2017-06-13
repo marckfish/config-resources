@@ -1,6 +1,3 @@
-server:
-  port: ${port:8569}
-
 message:
   hello: Hello everybody !
 
@@ -14,3 +11,6 @@ spring:
       discovery:
         enabled: true
         serviceId: CONFIG-SERVER
+
+server:
+  port: ${port:8569}
